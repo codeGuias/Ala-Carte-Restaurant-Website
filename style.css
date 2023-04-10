@@ -1,0 +1,226 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #28a745;
+  }
+  
+  a:hover {
+    text-decoration: none;
+    color: #218838;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  
+  section {
+    padding: 80px 0;
+  }
+  
+  section h2 {
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 60px;
+    color: #28a745;
+  }
+  
+  section p {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    text-align: center;
+  }
+  
+  /* Navbar Styles */
+  .navbar {
+    background-color: #28a745;
+    color: #fff;
+  }
+  
+  .navbar .navbar-brand {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-left: 15px;
+  }
+  
+  .navbar .nav-item {
+    margin-right: 15px;
+  }
+  
+  .navbar .nav-link {
+    color: #fff;
+    font-size: 1.25rem;
+  }
+  
+  /* Hero Section Styles */
+  .hero {
+    background-image: url(https://cdn.pixabay.com/photo/2017/02/25/15/18/beef-caldereta-2097981_960_720.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: #35ad51;
+    text-align: center;
+    padding: 150px 0;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .hero {
+      background-size: 100% auto;
+    }
+  }
+  
+  .hero h2 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-bottom: 30px;
+  }
+  
+  .hero p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+  }
+  
+  /* Menu Section Styles */
+  .menu {
+    padding: 100px 0;
+    background-color: #723f85;
+  }
+  
+  .menu h2 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-bottom: 50px;
+    color: #28a745;
+  }
+  
+  .menu .card {
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .menu .card-title {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  
+  .menu .card-text {
+    font-size: 1.25rem;
+    margin-bottom: 30px;
+  }
+  
+  .menu .card-img-top {
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .menu .btn-success {
+    background-color: #28a745;
+    border-color: #28a745;
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+  
+  .menu .btn-success:hover {
+    background-color: #218838;
+    border-color: #218838;
+  }
+  
+  /* About Section Styles */
+  .about {
+    background-color: #f8f9fa;
+    color: #6c757d;
+    text-align: center;
+  }
+  
+  .about p {
+    margin-top: 40px;
+  }
+  
+  /* Contact Section Styles */
+.contact {
+    background-color: #28a745;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .contact h2 {
+    color: #fff;
+  }
+  
+  .contact label {
+    color: #fff;
+  }
+  
+  .contact .form-control {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .contact input.form-control,
+  .contact textarea.form-control {
+    background-color: transparent;
+    color: #fff;
+    border-color: #fff;
+    border-radius: 0;
+    font-size: 1.25rem;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  .contact .btn-success {
+    background-color: #8f2e9a;
+    color: #fbfbfb;
+    border-color: #8f2e9a;
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+  
+  .contact .btn-success:hover {
+    background-color: #ac74a8;
+    border-color: #218838;
+    color: #fff;
+  }
+  
+    
+    /* Footer Styles */
+    footer {
+    background-color: #7b2f7d;
+    color: #6c757d;
+    text-align: center;
+    padding: 50px 0;
+    }
+    
+    footer p {
+    margin-bottom: 30px;
+    }
+    
+    footer ul li {
+    display: inline-block;
+    margin: 0 10px;
+    }
+    
+    footer ul li a {
+    color: #6c757d;
+    }
+    
+    footer ul li a:hover {
+    color: #28a745;
+    }
